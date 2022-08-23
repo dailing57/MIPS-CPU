@@ -1,6 +1,6 @@
 Vivado Simulator 2019.2
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: F:/Vivado/install/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2e3fabca07ee4b04b7367c3d8e03b178 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux2_tb_behav xil_defaultlib.mux2_tb xil_defaultlib.glbl -log elaborate.log 
+Running: F:/Vivado/install/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2e3fabca07ee4b04b7367c3d8e03b178 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -8,7 +8,17 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.mux2
-Compiling module xil_defaultlib.mux2_tb
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux_2
+Compiling module xil_defaultlib.mux_2_5
+Compiling module xil_defaultlib.mux_4_32
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.cpu_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot mux2_tb_behav
+Built simulation snapshot cpu_tb_behav
