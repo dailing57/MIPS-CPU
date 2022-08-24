@@ -23,6 +23,7 @@
 module cpu(
     input clk,
     input reset,
+    output wire [2:0] state,
     output wire [31:0] alu_a, 
     output wire [31:0] alu_b, 
     output wire [31:0] result, 
@@ -54,7 +55,7 @@ module cpu(
     
     control_unit con(.func(inst[5:0]),.op(inst[31:26]),.zero(zero),.sign(sign),.OF(OF_dff[0]),.CF(CF),.PF(PF),.pcwre(pcwre),.alusrca(alusrca),.alusrcb(alusrcb),
     .dbdatasrc(dbdatasrc), .regwre(regwre),.call(call),.wmem(wmem),.regrt(regrt),.extsel(extsel),.pcsrc(pcsrc),.aluop(aluop),.iord(iord),
-        .wir(wir),.shift(shift),.clk(clk),.clrn(reset));//实例化控制单元
+        .wir(wir),.shift(shift),.clk(clk),.clrn(reset),.state(state));//实例化控制单元
         
     pc p(.clk(clk),.reset(reset),.next_addr(neaddr),.pc(pc),.pcwre(pcwre));//实例化指令计数器
     

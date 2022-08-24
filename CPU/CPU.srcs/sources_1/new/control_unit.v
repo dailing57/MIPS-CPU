@@ -43,13 +43,14 @@ module control_unit(
     output shift,//控制信号
     output reg [1:0] alusrcb,//控制信号
     output reg [1:0] pcsrc,//控制信号
-    output reg [3:0] aluop//控制信号
+    output reg [3:0] aluop,//控制信号
+    output reg [2:0] state//当前控制单元状态
     );
     wire add,sub,addiu,addu,subu,addi,andi,and_,ori,or_,xori,xor_,nor_,lui,sll,srl,sra,sllv,srlv,srav,slti,slt,sltu,sltiu,sw,lw,beq,bne,bltz,j,jr,jal,halt;
     wire R;
     
     assign R = !(op[3]||op[2]||op[1]||op[0]);//在当前指令集,R为1当且仅当指令格式为R型指令
-    reg [2:0] state;//当前控制单元状态
+    
     //根据指令赋值,指令名对应变量为1当且仅当当前指令为对应指令    
     assign add = R&&(func==6'b100000);
     assign sub = R&&(func==6'b100010);
