@@ -1,0 +1,204 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 13792
+License: Customer
+
+Current time: 	Thu Aug 25 14:37:56 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 227 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	F:/Vivado/install/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	F:/Vivado/install/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	daili
+User home directory: C:/Users/daili
+User working directory: F:/MIPS/CPU
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Vivado/install/Vivado
+HDI_APPROOT: F:/Vivado/install/Vivado/2019.2
+RDI_DATADIR: F:/Vivado/install/Vivado/2019.2/data
+RDI_BINDIR: F:/Vivado/install/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/daili/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/daili/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/daili/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	F:/Vivado/install/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/MIPS/CPU/vivado.log
+Vivado journal file location: 	F:/MIPS/CPU/vivado.jou
+Engine tmp dir: 	F:/MIPS/CPU/.Xil/Vivado-13792-DESKTOP-562FP7Q
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/Vivado/install/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: F:/Vivado/install/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: F:/Vivado/install/Vivado/2019.2
+XILINX_VIVADO: F:/Vivado/install/Vivado/2019.2
+XILINX_VIVADO_HLS: F:/Vivado/install/Vivado/2019.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 603 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 79 MB (+80850kb) [00:00:11]
+// [Engine Memory]: 593 MB (+469928kb) [00:00:11]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: F:\MIPS\CPU\CPU.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/MIPS/CPU/CPU.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 603 MB. GUI used memory: 52 MB. Current time: 8/25/22, 2:37:58 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/MIPS/CPU/CPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 775 MB (+159965kb) [00:00:33]
+// [GUI Memory]: 90 MB (+7248kb) [00:00:34]
+// [GUI Memory]: 109 MB (+14636kb) [00:00:34]
+// [Engine Memory]: 815 MB (+1572kb) [00:00:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  3718 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/install/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 839 MB. GUI used memory: 55 MB. Current time: 8/25/22, 2:38:18 PM CST
+// Project name: CPU; location: F:/MIPS/CPU; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 859.441 ; gain = 229.164 
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 229 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1); // B (F, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 844 MB. GUI used memory: 55 MB. Current time: 8/25/22, 3:08:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 844 MB. GUI used memory: 50 MB. Current time: 8/25/22, 3:38:24 PM CST
+// PAPropertyPanels.initPanels (control_unit.v) elapsed time: 0.2s
+// Elapsed time: 4288 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("cpu.v", 72, 167); // ch (w, cr)
+selectCodeEditor("cpu.v", 77, 167); // ch (w, cr)
+selectCodeEditor("cpu.v", 77, 167, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("cpu.v", 387, 460); // ch (w, cr)
+selectCodeEditor("cpu.v", 197, 375); // ch (w, cr)
+selectCodeEditor("cpu.v", 121, 344); // ch (w, cr)
+selectCodeEditor("cpu.v", 21, 317); // ch (w, cr)
+selectCodeEditor("cpu.v", 34, 313); // ch (w, cr)
+selectCodeEditor("cpu.v", 33, 257); // ch (w, cr)
+// Elapsed time: 27 seconds
+selectCodeEditor("cpu.v", 202, 339); // ch (w, cr)
+selectCodeEditor("cpu.v", 201, 339, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.v", 1); // i (h, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), mem : mem (mem.v)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), mem : mem (mem.v)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("mem.v", 335, 173); // ch (w, cr)
+// Elapsed time: 33 seconds
+selectCodeEditor("mem.v", 303, 223); // ch (w, cr)
+selectCodeEditor("mem.v", 84, 199); // ch (w, cr)
+selectCodeEditor("mem.v", 84, 199, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 94, 199); // ch (w, cr)
+selectCodeEditor("mem.v", 94, 199, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 83, 176); // ch (w, cr)
+selectCodeEditor("mem.v", 83, 176, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 98, 170); // ch (w, cr)
+selectCodeEditor("mem.v", 98, 170, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 158, 130); // ch (w, cr)
+selectCodeEditor("mem.v", 158, 130, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 158, 218); // ch (w, cr)
+selectCodeEditor("mem.v", 158, 218, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 194 seconds
+selectCodeEditor("mem.v", 402, 602, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectCodeEditor("mem.v", 90, 548); // ch (w, cr)
+// Elapsed time: 27 seconds
+selectCodeEditor("mem.v", 90, 548, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectCodeEditor("mem.v", 216, 535); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("mem.v", 175, 518); // ch (w, cr)
+selectCodeEditor("mem.v", 197, 518); // ch (w, cr)
+selectCodeEditor("mem.v", 197, 518, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 41 seconds
+selectCodeEditor("mem.v", 93, 476); // ch (w, cr)
+selectCodeEditor("mem.v", 93, 476, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 103, 317); // ch (w, cr)
+selectCodeEditor("mem.v", 102, 317, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 118, 324); // ch (w, cr)
+selectCodeEditor("mem.v", 113, 312); // ch (w, cr)
+selectCodeEditor("mem.v", 113, 311, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("mem.v", 156, 426); // ch (w, cr)
+selectCodeEditor("mem.v", 156, 426, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("mem.v", 160, 420); // ch (w, cr)
+selectCodeEditor("mem.v", 160, 420, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), con : control_unit (control_unit.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1, true); // B (F, cr) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 2); // i (h, cr)
+selectCodeEditor("cpu.v", 86, 335); // ch (w, cr)
+selectCodeEditor("cpu.v", 86, 335, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("cpu.v", 97, 209); // ch (w, cr)
+selectCodeEditor("cpu.v", 97, 209, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("cpu.v", 75, 326); // ch (w, cr)
+selectCodeEditor("cpu.v", 75, 326, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("cpu.v", 148, 232); // ch (w, cr)
+selectCodeEditor("cpu.v", 599, 190); // ch (w, cr)
+selectCodeEditor("cpu.v", 789, 251); // ch (w, cr)
+selectCodeEditor("cpu.v", 725, 239); // ch (w, cr)
+selectCodeEditor("cpu.v", 642, 231); // ch (w, cr)
+selectCodeEditor("cpu.v", 323, 167); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 844 MB. GUI used memory: 57 MB. Current time: 8/25/22, 4:08:26 PM CST
+// Elapsed time: 813 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), rfile : regfile (regfile.v)]", 5, false); // B (F, cr)
+// [GUI Memory]: 116 MB (+1622kb) [01:37:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v), rfile : regfile (regfile.v)]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("regfile.v", 143, 262); // ch (w, cr)
+selectCodeEditor("regfile.v", 453, 304); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 844 MB. GUI used memory: 57 MB. Current time: 8/25/22, 4:38:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 844 MB. GUI used memory: 55 MB. Current time: 8/25/22, 5:08:30 PM CST
